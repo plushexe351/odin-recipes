@@ -10,7 +10,7 @@ head {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #pageheader{
-    margin-top:20px;
+    margin-top:0;
 }
 /* to center divs */
 .container {
@@ -29,7 +29,7 @@ head {
   max-height: 300px;
   text-decoration: none;
   position: relative;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: -30px;
@@ -67,7 +67,40 @@ head {
     max-height :300px;
     margin-left: 60px;
 }
+.textsettings{
+    margin:10px 10px;
+    max-width:300px;
+    object-fit: contain;
+}
+.kunai{
+    max-width:200px;
+    object-fit: contain;
+}
+.btn{
+    transition : 0.3s ease;
+}
+/* .btn:hover{
+    transform:translate(-12px,-12px);
+} */
+.btn2{
+    transition: 0.3s ease;
+}
+/* image buttons */
+.btn2:hover{
+    box-shadow:
+    /* 0px 0px 60px rgb(255, 170, 101); */
+    0px 10px 40px #000;
+    transform: scaleX(1.05);
+}
+/* images */
+.btn:hover{
+    transform: translate(0px,-16px)scale(1.01);
+}
 
+.container1{
+    margin-top: 20px;
+    margin-left: 5px;
+}
 
 
 
